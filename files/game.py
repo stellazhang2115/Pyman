@@ -16,7 +16,7 @@ mainClock = pygame.time.Clock()
 Start()
 
 # Constants
-LIVES = 3
+LIVES = 5
 POINTS = 0
 
 # text
@@ -32,7 +32,7 @@ background = pygame.image.load('../sprites/pacman-level.png')
 window.blit(background, (0, 0))
 
 # Pixels per loop
-MOVESPEED = 4
+MOVESPEED =7
 
 # Create Tilees for collisions
 walls = pygame.sprite.Group()
